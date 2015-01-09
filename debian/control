@@ -8,7 +8,6 @@ Build-Depends: libx11-dev, xorg-dev, xorg-dev, xutils-dev, x11proto-dri2-dev, li
 Package: xf86-video-fbturbo-improved
 Architecture: any
 Depends: libkdesk-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}, libstartup-notification0, libxss1
-Provides: xf86-video-fbturbo-improved
 Conflicts: xserver-xorg-video-fbturbo
 Replaces: xserver-xorg-video-fbturbo
 Description: X Server fbturbo improved driver
