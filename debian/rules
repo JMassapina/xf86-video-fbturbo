@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_auto_configure:
+	./autogen.sh
+
+override_dh_auto_install:

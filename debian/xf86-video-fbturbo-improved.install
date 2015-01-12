@@ -1,3 +1,3 @@
-debian/xf86-video-fbturbo-improved/usr/lib/arm-linux-gnueabihf/xorg/modules/drivers/fbturbo_drv.la /usr/lib/xorg/modules/drivers/
-debian/xf86-video-fbturbo-improved/usr/lib/arm-linux-gnueabihf/xorg/modules/drivers/fbturbo_drv.so /usr/lib/xorg/modules/drivers/
+src/.libs/fbturbo_drv.la /usr/lib/xorg/modules/drivers/
+src/.libs/fbturbo_drv.so /usr/lib/xorg/modules/drivers/
 x11-conf/999-fbturbo-improved.conf /usr/share/X11/xorg.conf.d/

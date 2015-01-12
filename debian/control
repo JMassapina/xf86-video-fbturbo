@@ -3,7 +3,7 @@ Maintainer: Team Kano <dev@kano.me>
 Section: x11
 Priority: optional
 Standards-Version: 1.1.0
-Build-Depends: libx11-dev, xorg-dev, xorg-dev, xutils-dev, x11proto-dri2-dev, libltdl-dev, libdrm-dev, debhelper (>=9.0.0)
+Build-Depends: libx11-dev, xorg-dev, xorg-dev, xutils-dev, x11proto-dri2-dev, libltdl-dev, libdrm-dev, libtool, automake, debhelper (>=9.0.0)
 
 Package: xf86-video-fbturbo-improved
 Architecture: any
