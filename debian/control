@@ -1,0 +1,16 @@
+Source: xf86-video-fbturbo-improved
+Maintainer: Team Kano <dev@kano.me>
+Section: x11
+Priority: optional
+Standards-Version: 1.1.0
+Build-Depends: libx11-dev, xorg-dev, xorg-dev, xutils-dev, x11proto-dri2-dev, libltdl-dev, libdrm-dev, debhelper (>=9.0.0)
+
+Package: xf86-video-fbturbo-improved
+Architecture: any
+Depends: libkdesk-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}, libstartup-notification0, libxss1
+Conflicts: xserver-xorg-video-fbturbo
+Replaces: xserver-xorg-video-fbturbo
+Description: X Server fbturbo improved driver
+ xf86-video-fbturbo - video driver, primarily optimized for the devices powered
+ by the Allwinner SoC (A10, A13, A20). It can use some of the 2D/3D hardware
+ acceleration features.
